@@ -12,7 +12,7 @@
 
 1. [Bot 作成](#bot-作成)
 2. `make release`で作成したdrcを実行
-3. [Lambda設定]<https://github.com/jsbry/dal>
+3. [Lambda設定](https://github.com/jsbry/dal)
 4. [INTERACTIONS ENDPOINT URL設定](#interactions-endpoint-url)
 
 ### Bot 作成
