@@ -15,7 +15,7 @@
 3. [Lambda設定](https://github.com/jsbry/dal)
 4. [INTERACTIONS ENDPOINT URL設定](#interactions-endpoint-url)
 
-### Bot 作成
+### Bot 作成(うろ覚え)
 
 - <https://discord.com/developers/applications>
 - New Application
@@ -33,3 +33,5 @@
 - My ApplicationsからBotを選択
 - SETTINGS > General Information
     - INTERACTIONS ENDPOINT URLにLambdaのURLを登録
+        - Lambdaを正しく動くものでないと、Saveできない
+        - discordgo.VerifyInteractionがtrueになるアクセス、falseになるアクセスの2つが来る
