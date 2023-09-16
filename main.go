@@ -64,11 +64,21 @@ func getCommands() Commands {
 		Name:  "stop",
 		Value: "stop",
 	}
+
+	// ark server
 	c3 := Choice{
-		Name:  "test",
-		Value: "test",
+		Name:  "info",
+		Value: "info",
 	}
-	choices := []Choice{c1, c2, c3}
+	c4 := Choice{
+		Name:  "save",
+		Value: "save",
+	}
+	c5 := Choice{
+		Name:  "status",
+		Value: "status",
+	}
+	choices := []Choice{c1, c2, c3, c4, c5}
 
 	o1 := Option{
 		Name:        "action",
@@ -80,7 +90,7 @@ func getCommands() Commands {
 	options := []Option{o1}
 
 	return Commands{
-		Name:        "sss",
+		Name:        "arks",
 		Description: "command to start/stop server",
 		Options:     options,
 	}
